@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introducing Tale"
+title:  "Selected Projects"
 author: "Chester"
 comments: true
 ---
