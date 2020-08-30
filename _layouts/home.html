@@ -4,9 +4,9 @@ layout: default
 
 <div id="kaitou" class="catalogue">
   {% for post in paginator.posts %}
-      <div id=post.id>
+      <div>
         <!-- <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time> -->
-        <h1 class="catalogue-title">{{ post.title }}</h1>
+        <h1 id=post.id class="catalogue-title">{{ post.title }}</h1>
         <div class="catalogue-line"></div>
 
         <p>
