@@ -2,20 +2,53 @@
 layout: default
 ---
 
-<div id="kaitou" class="catalogue">
-  {% for post in paginator.posts %}
-      <div>
+<!-- <div id="kaitou" class="catalogue"> -->
+  <!-- {% for post in paginator.posts %} -->
+      <!-- <div> -->
         <!-- <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time> -->
-        <h1 id=post.id class="catalogue-title">{{ post.title }}</h1>
-        <div class="catalogue-line"></div>
+        <!-- <h1 id=post.id class="catalogue-title">{{ post.title }}</h1> -->
+        <!-- <div class="catalogue-line"></div> -->
 
-        <p>
-          {{ post.content}}
-        </p>
+        <!-- <p> -->
+          <!-- {{ post.content}} -->
+        <!-- </p> -->
 
-      </div>
-    </a>
-  {% endfor %}
+      <!-- </div> -->
+    <!-- </a> -->
+  <!-- {% endfor %} -->
+<!-- </div> -->
+<div id="kaitou" class="catalogue">
+  <div id="secIntro">
+    <h1 class="catalogue-title">{{ "" }}</h1>
+    <div class="catalogue-line"></div>
+    <p>
+      I am Shangquan Sun, currently a master student at University of Michigan (UM), majoring data science. I got my B.S. degree in Electrical and Computer Engineering at 
+      Shanghai Jiao Tong University (SJTU), UM-SJTU Joint Institute. 
+    </p>
+  </div>
+
+  <div id="secCourse">
+    <h1 class="catalogue-title">{{ "Selected Courses" }}</h1>
+    <div class="catalogue-line"></div>
+    <p>
+      University of Michigan:
+      <br>
+      EECS 545 Machine Learning, EECS 549 Information Retrieval, EECS 484 Database Management System, EECS 598 Special topic in Human-Computer Interaction, EECS 598 Special topic in Systems for AI, 
+      <br>
+      Shanghai Jiao Tong University
+      <br>
+      VE 280 Programming and Data Structures, VE 281 Data Structures and Algorithms, EECS 477 Intro. to Algorithms, VE 482 Intro. to Operating Systems, VE 270 Intro. to Logic Design, VE 370 Intro. to Computer Organization, VE 488 Data Mining and Machine Learning, VE 492 Intro. to Atificial Intelligence, 
+    </p>
+  </div>
+
+  <div id="secProject">
+    <h1 class="catalogue-title">{{ "Selected Projects" }}</h1>
+    <div class="catalogue-line"></div>
+    <p>
+      title
+      [code][report] 
+    </p>
+  </div>
 </div>
 
 <div class="pagination">
